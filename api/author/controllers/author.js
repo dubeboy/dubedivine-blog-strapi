@@ -5,4 +5,16 @@
  * to customize this controller
  */
 
-module.exports = {};
+module.exports = {
+    async find(ctx) {
+        const author = await strapi.services.author.find()
+        const divine = author.author_name
+        return {
+            divine,
+            profile_photo: { 
+                name: author.profile_photo.name,
+                thumbnail_url: author.profile_photo.formats.thumbnail.url
+          },
+       }
+    },
+};
