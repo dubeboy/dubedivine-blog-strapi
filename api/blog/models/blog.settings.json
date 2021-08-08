@@ -41,6 +41,10 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "blog"
     }
   }
 }
