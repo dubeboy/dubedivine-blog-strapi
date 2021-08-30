@@ -52,7 +52,8 @@
           "localized": true
         }
       },
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "slug": {
       "pluginOptions": {
