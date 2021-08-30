@@ -62,6 +62,16 @@
       },
       "type": "string",
       "unique": true
+    },
+    "external_link": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "other.external-link"
     }
   }
 }

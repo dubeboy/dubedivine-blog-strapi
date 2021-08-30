@@ -6,5 +6,8 @@
  */
 
 module.exports = {
-
+  async findOne(ctx) {
+    const { slug } = ctx.params;
+    return await strapi.services.blog.findOne({slug: slug})
+  },
 };

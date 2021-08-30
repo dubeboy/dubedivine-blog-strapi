@@ -5,7 +5,7 @@ Accept: application/json
 
 ### Find Blog
 
-GET http://localhost:1337/blogs/1
+GET http://localhost:1337/blogs/the-idea
 Accept: application/json
 
 ### Find Blog

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_other_external_links",
+  "info": {
+    "name": "external_link",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
