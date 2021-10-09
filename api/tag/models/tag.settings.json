@@ -20,9 +20,9 @@
       "required": true,
       "unique": true
     },
-    "blog": {
+    "blogs": {
       "via": "tags",
-      "model": "blog"
+      "collection": "blog"
     }
   }
 }
